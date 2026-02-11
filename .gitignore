@@ -16,6 +16,11 @@ pdf/
 pdf_word/
 *.docx
 
+# Build artifacts
+build/
+dist/
+*.spec
+
 # OS
 Thumbs.db
 Desktop.ini

@@ -51,3 +51,20 @@ python gui.py
 
 La interfaz permite seleccionar una carpeta de entrada con PDFs, muestra la ruta elegida y ejecuta la generacion.  
 Los resultados se guardan en `Descargas\\YYYY-MM-DD` del usuario actual.
+
+## Build (exe)
+
+Instala PyInstaller:
+
+```bash
+python -m pip install pyinstaller
+```
+
+Genera el ejecutable:
+
+```powershell
+.\build.ps1
+```
+
+El ejecutable queda en `dist\\PDF_a_Word.exe`.  
+Si existe `assets\\images\\logo_corfo_azul.ico`, se usa como icono del exe.
