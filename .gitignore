@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+pdf_word/
+.venv/
+venv/
+env/
+
+# Outputs
+output/
+pdf_word/
+pdf/
+pdf_word/
+*.docx
+
+# OS
+Thumbs.db
+Desktop.ini
